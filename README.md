@@ -1,4 +1,8 @@
 ### Hi there 👋
+### I'm Duc Manh
+### I'm 20 years old
+## I own this repository
+# How about you?
 
 <!--
 **Ducmanh28/Ducmanh28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
