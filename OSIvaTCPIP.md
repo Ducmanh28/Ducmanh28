@@ -151,6 +151,7 @@ Tổng quan chức năng của các tầng trong mô hình OSI:
 ![Imgur](https://i.imgur.com/ZDFsHf8.png)
 - Tầng vật lý liên quan truyền dữ liệu. Truyền dữ liệu bằng các bit qua các thiết bị chuyển mạng hoặc các thiết bị vật lý được kết nối với nhau bằng dây dẫn.
 - Tầng vật lý cần quan tâm đến các vấn đề về thao tác vật lý như ghép nối cơ khí, điện tử bảng mạch. Thủ tục và môi trường truyền tin bên dưới nó ví dụ mức điện áp tương ứng với bit 0 - 1, thời gian tồn tại của xung…
+- Data Unit: bits
 ## 3. Quá trình truyền dữ liệu của cấu trúc OSI
 ![Imgur](https://i.imgur.com/wD66dOO.png)
 Quá trình đóng gói dữ liệu của cấu trúc OSI diễn ra như sau:
@@ -191,6 +192,9 @@ Như ta đã biết thì cả 2 mô hình này đều được sử dụng để
 - TCP/IP được sử dụng rộng rãi hơn. Cho phép nới lỏng các nguyên tắc và cung cấp các nguyên tắc chung. Được sử dụng để thiết lập kết nối và giao tiếp qua mạng
 # V. Tài liệu tham khảo:
 https://itforvn.com/bai-2-mo-hinh-osi-va-tcpip/
+
 https://docs.google.com/document/d/13el-GUU8dbBZnsE5kuA5PyUtPv18eru4/edit
+
 https://vietnix.vn/mo-hinh-osi-la-gi/
+
 https://www.avg.com/en/signal/what-is-tcp-ip
