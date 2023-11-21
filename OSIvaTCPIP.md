@@ -66,7 +66,8 @@ Dễ bị tấn công **SYN** - một kiểu tấn công từ chối dịch vụ
 ##### 6.1.3. So sánh giống và khác nhau giữa 2 giao thức
 - Giống nhau: Đều là các giao thức ở tầng `Transport` của mô hình `TCP/IP`, có chức năng kết nối các máy lại với nhau và truyền dữ liệu cho nhau
 - Khác nhau:
-|   `TCP/IP`  |        `UDP`        |
+
+|   `TCP/IP`  |        `UDP`      |
 |-------------|-------------------|
 |Hướng kết nối|Hướng không kết nối|
 |Độ tin cậy cao|Độ tin cậy thấp|
@@ -75,6 +76,23 @@ Dễ bị tấn công **SYN** - một kiểu tấn công từ chối dịch vụ
 |Đảm bảo việc truyền dữ liệu|Không đảm bảo việc truyền dữ liệu|
 |Có sắp xếp thứ tự các gói tin|Không sắp xếp thứ tự các gói tin|
 |Tốc độ truyền thấp hơn UDP|Tốc độ truyền cao|
+
+- Kiểm tra máy của bạn sử dụng các giao thức nào ?
+- B1: Thực hiện chạy cmd với quyền admin
+
+![Alt text](image.png)
+
+- B2: Gõ dòng lệnh: `netstat -ab` 
+
+![Alt text](image-1.png)
+
+- B3: Thực hiện kiểm tra:
+
+![Alt text](image-2.png)
+==> Hầu hết các giao thức ở trên này là TCP
+![Alt text](image-3.png)
+==> Ta bắt đầu thấy các trình sử dụng giao thức UDP ở dưới
+
 #### 6.2. Một số giao thức phổ biến khác
 - `HTTP`(Hyper Text Transfer Protocol): Truyền tải dữ liệu không an toàn giữa **web-client** và **web-server**
 - `HTTPS` (Hyper Text Transfer Protocol Secure): Truyền tải dữ liệu an toàn giữa **web-client** và **web-server**
@@ -190,7 +208,20 @@ Như ta đã biết thì cả 2 mô hình này đều được sử dụng để
     
 - Mô hình OSI thường được sử dụng như một công cụ tham khảo để hiểu rõ hơn về nguyên lý hoạt động và truyền tin của mạng máy tính. Giúp chuẩn hóa các thành phần mạng để phát triển dễ dàng hơn. Tuy nhiên mô hình OSI không thực tế được sử dụng để liên lạc
 - TCP/IP được sử dụng rộng rãi hơn. Cho phép nới lỏng các nguyên tắc và cung cấp các nguyên tắc chung. Được sử dụng để thiết lập kết nối và giao tiếp qua mạng
-# V. Tài liệu tham khảo:
+
+# V. Cách kiểm tra xem máy tính của bạn đang dùng gì?
+- B1: Thực hiện chay cmd với quyền admin
+![Alt text](image.png)
+
+- B2: Gõ dòng lệnh: `netstat -ab` 
+![Alt text](image-1.png)
+
+- B3: Thực hiện kiểm tra:
+![Alt text](image-2.png)
+==> Hầu hết các giao thức ở trên này là TCP
+![Alt text](image-3.png)
+
+# VI. Tài liệu tham khảo:
 https://itforvn.com/bai-2-mo-hinh-osi-va-tcpip/
 
 https://docs.google.com/document/d/13el-GUU8dbBZnsE5kuA5PyUtPv18eru4/edit
@@ -198,3 +229,4 @@ https://docs.google.com/document/d/13el-GUU8dbBZnsE5kuA5PyUtPv18eru4/edit
 https://vietnix.vn/mo-hinh-osi-la-gi/
 
 https://www.avg.com/en/signal/what-is-tcp-ip
+
